@@ -6,7 +6,7 @@
 > **Build time:** **55 minutes**
 > One HTML file. Zero external images, models, fonts or audio — every texture, mesh, sound and UI element is generated in code at runtime.
 
-**Live:** https://todsawat.github.io/weatherglass/
+**Live:** https://todsawat.github.io/weatherglass-GLM5.3Flash-EXL3-Max/
 
 ![preview](preview.png)
 
@@ -32,7 +32,7 @@ Clouds are fully physical objects: grab them, squeeze them, shake them, fling th
 Append `?scenario=` to the URL:
 `calm` · `rain` · `storm` · `snow` · `mountainsnow` · `fog` · `autumn` · `night` · `dusk`
 
-Example: https://todsawat.github.io/weatherglass/?scenario=storm
+Example: https://todsawat.github.io/weatherglass-GLM5.3Flash-EXL3-Max/?scenario=storm
 
 ## Notes
 
