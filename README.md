@@ -8,6 +8,15 @@
 
 **Live:** https://todsawat.github.io/weatherglass-GLM5.3Flash-EXL3-4bpw-Max/
 
+## ⚠️ Two separate builds — do not mix
+
+| Build | Model / weights | Hardware | Time | Repo |
+|---|---|---|---|---|
+| **This one** | GLM5.3 Flash · EXL3 · 4 bpw · Max effort | 2× DGX Spark | 55 min | this repo |
+| Other build | **DeepSeek V4.1 Flash 1017 · FP8 · Max effort** | **4× DGX Spark** | **7 h 30 min (run 2)** | [weatherglass-DS41Flash-FP8-Max](https://github.com/todsawat/weatherglass-DS41Flash-FP8-Max) |
+
+Each build has its own repository, its own Pages site and its own README so the two results stay clearly separated.
+
 ![preview](preview.png)
 
 ## What it is
