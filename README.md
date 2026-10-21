@@ -18,7 +18,7 @@ The same prompt ([PROMPT.md](PROMPT.md)) was built three times, by three differe
 | 2 | DeepSeek v4.1 · FP8 Weight · Max Effort | 4× DGX Spark | 7 h 30 min (run 2) | [open](https://todsawat.github.io/weatherglass-DS41Flash-FP8-Max/) | [weatherglass-DS41Flash-FP8-Max](https://github.com/todsawat/weatherglass-DS41Flash-FP8-Max) |
 | 3 | **GLM v5.3 Flash · EXL3 4bpw · Max Effort** | 2× DGX Spark | 55 min | [open](https://todsawat.github.io/weatherglass-GLM5.3Flash-EXL3-4bpw-Max/) | **this repo** |
 
-![preview](preview.png)
+![Weatherglass — GLM5.3 Flash build (screenshot of the live site)](preview.png)
 
 ## What it is
 
