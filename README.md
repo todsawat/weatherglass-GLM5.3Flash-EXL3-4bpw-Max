@@ -8,14 +8,15 @@
 
 **Live:** https://todsawat.github.io/weatherglass-GLM5.3Flash-EXL3-4bpw-Max/
 
-## ⚠️ Two separate builds — do not mix
+## Three versions from one prompt
 
-| Build | Model / weights | Hardware | Time | Repo |
-|---|---|---|---|---|
-| **This one** | GLM5.3 Flash · EXL3 · 4 bpw · Max effort | 2× DGX Spark | 55 min | this repo |
-| Other build | **DeepSeek V4.1 Flash 1017 · FP8 · Max effort** | **4× DGX Spark** | **7 h 30 min (run 2)** | [weatherglass-DS41Flash-FP8-Max](https://github.com/todsawat/weatherglass-DS41Flash-FP8-Max) |
+The same prompt ([PROMPT.md](PROMPT.md)) was built three times, by three different models. Each version has its own repository, its own Pages site and its own README so the results stay separate.
 
-Each build has its own repository, its own Pages site and its own README so the two results stay clearly separated.
+| # | Version | Hardware | Build time | Live | Repo |
+|---|---|---|---|---|---|
+| 1 | Claude Opus v5.5 · Max Effort | Anthropic cloud · lead + 10 parallel sub-agents | ≈ 2 h 10 min | [open](https://todsawat.github.io/weatherglass-Opus5.5-Max/) | [weatherglass-Opus5.5-Max](https://github.com/todsawat/weatherglass-Opus5.5-Max) |
+| 2 | DeepSeek v4.1 · FP8 Weight · Max Effort | 4× DGX Spark | 7 h 30 min (run 2) | [open](https://todsawat.github.io/weatherglass-DS41Flash-FP8-Max/) | [weatherglass-DS41Flash-FP8-Max](https://github.com/todsawat/weatherglass-DS41Flash-FP8-Max) |
+| 3 | **GLM v5.3 Flash · EXL3 4bpw · Max Effort** | 2× DGX Spark | 55 min | [open](https://todsawat.github.io/weatherglass-GLM5.3Flash-EXL3-4bpw-Max/) | **this repo** |
 
 ![preview](preview.png)
 
